@@ -1,44 +1,84 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   <link href="resources/css/index.css" type="text/css" rel="stylesheet">
+  <meta name="keywords" content="обучение, HTML, CSS, IT, программирование">
+  <meta name="description" content="Тестовый документ для обучения вёрстки">
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Байки омского IT</title>
+  <title>Test</title>
 </head>
 <body>
+  <header>
+    <h1 class="id">My first site auf</h1>
+    <time datetime="2021-02-16">с 16 февраля 2020</time>
+    <nav>
+      <a href="#end"><p id="begin">Перейти в конец сайта</p></a>
+      <a href="https://vk.com/oddwang" target="_blank">
+      <img src="resources/images/68PBGrGf6VY.jpg" width="240" height="240">
+      <p>Невероятно успешный автор сайта</p>
+      </a>
+    </nav>
+  </header>
   <main>
-    <h1>Байки омского IT</h1>
-    <p>Студенты, не упустите шанс познакомиться с основателями IT-компаний в Омске и опытными участниками сообщества,
-     не выходя из дома!</p>
-     <h2>Вы узнаете</h2>
-     <ul>
-       <li>С чего зарождалось IT-сообщество?</li>
-       <li>Как появились некоторые компании 10-20 лет назад?</li>
-       <li>Что мотивировало их создателей на это?</li>
-       <li>Какие были неудачи и успехи?</li>
-       <li>Почему начали заниматься именно этим делом?</li>
-     </ul>
-     <p>Приходите, чтобы послушать "Байки омского IT"
-      и задать вопросы. Не исключено, что через пару лет травить такие байки 
-      будете вы!</p>
-      <br>
-      <h3><a href="http://omskit.1der.link/signup" target="_blank">Регистрация</a></h3>
-      <ul>
-        <li>Место проведения: онлайн в Zoom</li>
-        <li>Дата: 06.02.2021</li>
-        <li>Время: 11:00</li>
-      </ul>
-      <br>
-      <aside>
-        <p>Добавьте событие в календарь, чтобы не забыть!</p>
-      </aside>
-      <br>
-      <div class="help">
-        <p>Не получается зарегестрироваться на Leader-ID? <a href="https://vk.com/@omskit-registraciya-na-leader-id" target ="_blank">Узнайте, как это сделать.</a></p>
-      </div>
+    <h2>SOMETHING VERY MOTIVATIONAL</h2>
+    <div>     
+        <section>
+          <p>Данный сайт был создан с целью применения изученных базовых тегов HTML и свойств CSS</p>
+          <p>Планирую применить к тексту какой-нибудь <span>сносный</span> красивый фон, <span>найти в интернете готовую </span>поработать с цветовой палитрой и <span>просто ввести параметр "border-radius: 50%;"</span> закруглить края фото выше. Гениально, правда?</p>
+        </section>
+        <aside>
+          <p>Что-то вовсе бесполезное. Вы знали, что в 2012 году Охлобыстин хотел <strong>баллотироваться в президенты?</strong> С ума сойти.</p>
+        </aside>
+        <section class="descriptions">
+          <dl>
+            <dt>HTML</dt>
+            <dd>"HyperText Markup Language", язык гипертекстовой разметки, служащий для создания изначального макета</dd>
+            <dt>CSS</dt>
+            <dd>"Cascad StyleSheet", каскадная таблица стилей, применяемая для придания сайту определённого вида</dd>
+          </dl>
+          <p>Пример кода на HTML:</p>
+          <div class="code">
+          <pre><code>
+&lt;body&gt;
+&lt;p&gt;Новый абзац с текстом&lt;/p&gt;
+&lt;img src="https://images/image.png"&gt;
+&lt;/body&gt;
+          </code></pre>
+          </div>
+          <br>
+          <p>Пример кода на CSS:</p>
+          <div class="code">
+          <pre><code>
+body {
+   font-style: "Courier New", monospace;
+   font-size: 12px;
+  background-color: rgb(23, 45, 90);
+}
+
+.code {
+   font-decoration: line-through;
+   font-weight: bold;
+}
+          </code></pre>
+          </div>
+        </section>
   </main>
+    <footer>
+      <p>Какие-то ссылки на что-то очень важное:</p>
+      <ul class="anchors">
+        <li><a href="https://instagram.com/feelssadvlad" target="_blank">Первая важная ссылка</a></li>
+        <li><a href="https://instagram.com/3mirrorsvlad7" target="_blank">Вторая важная ссылка</a></li>
+        <li><a title="Действительно неактивная ссылка">Неактивная (?) ссылка</a></li>
+      </ul>
+      <a href="#begin"><p id="end">Перейти к началу страницы</p></a>
+      <q>H<sup>2</sup>0 – просто добавь воды" – шикарный сериал.</q>
+      <br>
+      <cite>Джейсон Стетхем, 1488 г. до н.э.</cite> 
+      
+    </footer>
 </body>
 </html>
